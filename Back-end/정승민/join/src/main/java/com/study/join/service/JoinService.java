@@ -12,6 +12,12 @@ public class JoinService {
     private JoinRepository joinRepository;
 
     public void write(Join join){
+        System.out.println(join.getUserID());
+        System.out.println(join.getBirthYEAR());
+        System.out.println(join.getUserEmail());
+        System.out.println(join.getUserPW());
+        System.out.println(join.getUserNAME());
+
 
         joinRepository.save(join);
     }

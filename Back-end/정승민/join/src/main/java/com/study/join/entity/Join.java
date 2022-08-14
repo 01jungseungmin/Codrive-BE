@@ -12,7 +12,7 @@ public class Join {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String userID; //id
+    private Integer userID; //id
 
     private String userNAME; //이름
 
