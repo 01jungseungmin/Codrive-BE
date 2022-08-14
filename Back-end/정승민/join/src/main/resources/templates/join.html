@@ -1,0 +1,35 @@
+<!--회원가입 페이지-->
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>회원가입</title>
+</head>
+<body>
+<form method="post" action="/board/signUp">
+  <div class="container">
+
+    <div>
+    <label >이름: </label>
+    <input type="text" name="userNAME">
+    </div>
+
+    <div>
+    <label>이메일: </label>
+    <input type="email" name="userEmail">
+    </div>
+
+    <div>
+    <label>비밀번호: </label>
+    <input type="password" name="userPw">
+    </div>
+
+    <div>
+    <label>생일: </label>
+    <input type="number" name="birthYEAR">
+  </div>
+
+  <button type="submit">가입 완료</button>
+  </div>
+</form>
+</body>
+</html>
